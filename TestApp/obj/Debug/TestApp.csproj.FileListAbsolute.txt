@@ -1,0 +1,16 @@
+H:\RpgEngine\trunk\TestApp\bin\Debug\TestApp.exe.config
+H:\RpgEngine\trunk\TestApp\bin\Debug\TestApp.exe
+H:\RpgEngine\trunk\TestApp\bin\Debug\TestApp.pdb
+H:\RpgEngine\trunk\TestApp\bin\Debug\RpgGamePcl.dll
+H:\RpgEngine\trunk\TestApp\bin\Debug\RpgGamePcl.pdb
+H:\RpgEngine\trunk\TestApp\obj\Debug\TestApp.csprojResolveAssemblyReference.cache
+H:\RpgEngine\trunk\TestApp\obj\Debug\TestApp.exe
+H:\RpgEngine\trunk\TestApp\obj\Debug\TestApp.pdb
+E:\RpgEngine\trunk\TestApp\bin\Debug\TestApp.exe.config
+E:\RpgEngine\trunk\TestApp\obj\Debug\TestApp.exe
+E:\RpgEngine\trunk\TestApp\obj\Debug\TestApp.pdb
+E:\RpgEngine\trunk\TestApp\bin\Debug\TestApp.exe
+E:\RpgEngine\trunk\TestApp\bin\Debug\TestApp.pdb
+E:\RpgEngine\trunk\TestApp\bin\Debug\RpgGamePcl.dll
+E:\RpgEngine\trunk\TestApp\bin\Debug\RpgGamePcl.pdb
+E:\RpgEngine\trunk\TestApp\obj\Debug\TestApp.csprojResolveAssemblyReference.cache

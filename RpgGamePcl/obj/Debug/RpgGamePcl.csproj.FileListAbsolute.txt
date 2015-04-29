@@ -1,0 +1,10 @@
+H:\RpgEngine\trunk\RpgGamePcl\bin\Debug\RpgGamePcl.dll
+H:\RpgEngine\trunk\RpgGamePcl\bin\Debug\RpgGamePcl.pdb
+H:\RpgEngine\trunk\RpgGamePcl\obj\Debug\RpgGamePcl.csprojResolveAssemblyReference.cache
+H:\RpgEngine\trunk\RpgGamePcl\obj\Debug\RpgGamePcl.dll
+H:\RpgEngine\trunk\RpgGamePcl\obj\Debug\RpgGamePcl.pdb
+E:\RpgEngine\trunk\RpgGamePcl\bin\Debug\RpgGamePcl.dll
+E:\RpgEngine\trunk\RpgGamePcl\bin\Debug\RpgGamePcl.pdb
+E:\RpgEngine\trunk\RpgGamePcl\obj\Debug\RpgGamePcl.csprojResolveAssemblyReference.cache
+E:\RpgEngine\trunk\RpgGamePcl\obj\Debug\RpgGamePcl.dll
+E:\RpgEngine\trunk\RpgGamePcl\obj\Debug\RpgGamePcl.pdb

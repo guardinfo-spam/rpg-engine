@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <MinimumVisualStudioVersion>10.0</MinimumVisualStudioVersion>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4BEBA676-A3EA-48E4-B9C2-8F0F5CF71A70}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RpgGamePcl</RootNamespace>
+    <AssemblyName>RpgGamePcl</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Profile158</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{786C830F-07A1-408B-BD7F-6EE04809D6DB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <!-- A reference to the entire .NET Framework is automatically included -->
+    <Folder Include="Crafting\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AbstractClasses\AbstractGear.cs" />
+    <Compile Include="AbstractClasses\Gear.cs" />
+    <Compile Include="AbstractClasses\RandomWeightedSelector.cs" />
+    <Compile Include="Actor\ActorBase.cs" />
+    <Compile Include="Actor\ActorFunctionality.cs" />
+    <Compile Include="Actor\ActorSheet.cs" />
+    <Compile Include="Actor\ActorStats.cs" />
+    <Compile Include="Actor\Mob.cs" />
+    <Compile Include="Actor\Player.cs" />
+    <Compile Include="Algorithms\GenericInputItem.cs" />
+    <Compile Include="Algorithms\RandomWeightedChoice.cs" />
+    <Compile Include="BaseEnums.cs" />
+    <Compile Include="Combat\CombatEnums.cs" />
+    <Compile Include="Combat\CombatFormulas.cs" />
+    <Compile Include="Combat\CombatScene.cs" />
+    <Compile Include="Drops\DropItem.cs" />
+    <Compile Include="Drops\LootTable.cs" />
+    <Compile Include="Factories\ObjectFactory.cs" />
+    <Compile Include="Interfaces\ICombatFormulas.cs" />
+    <Compile Include="Interfaces\ICraftable.cs" />
+    <Compile Include="Interfaces\IInventory.cs" />
+    <Compile Include="Interfaces\IItemEffects.cs" />
+    <Compile Include="Interfaces\IItem.cs" />
+    <Compile Include="Interfaces\IStats.cs" />
+    <Compile Include="Inventory\InventorySlot.cs" />
+    <Compile Include="Items\CraftDetail.cs" />
+    <Compile Include="Items\Item.cs" />
+    <Compile Include="Items\ItemCraftSource.cs" />
+    <Compile Include="Items\ItemsEnums.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
